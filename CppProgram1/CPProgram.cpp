@@ -213,6 +213,7 @@ int main() {
             } else {
                 cout << "Invalid index: " << row << endl;
             }
+            cout << endl;
             m1.printMatrix();
         } else if (selection == 5) {
             int col;
@@ -224,6 +225,7 @@ int main() {
             } else {
                 cout << "Invalid index: " << col << endl;
             }
+            cout << endl;
             m1.printMatrix();          
         } else {
             break;
